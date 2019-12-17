@@ -1,1 +1,7 @@
 # Brain-Tumor-Segmentation
+
+The purpose of this study is to present two proposed frameworks for segmentation medical images on MRI brain images in order to improve the tumor detection using image processing tools. The frameworks consist of four stages including pre-processing, segmentation image, feature extraction and feature reduction. In pre-processing, MRI brain images are filtered noise by using median filter. The value of new pixel is substituted by the median of neighbor pixels. The histogram equalization is also used in MRI images in order to improve intensity of images. In addition, the images are converted to binary image by using global thresholding. After that, the skull stripping removal are implemented in binary images. The removal of outer skull and structures reduces the processing time on all techniques [1].  Skull stripping might enhance the robustness of the process due to the removal of high resolution of non-brain tissue in the images [2].
+
+## Reference
+[1]. Eman Abdel-Maksoud, Mohammed Elmogy, Rashid Al-Awadi, “Brain tumor segmentation based on a hybrid clustering technique”, Egyptian Informatics Journal, vol. 16, pp 71–81, 2015.
+[2]. F.Ph.S. Fischmeister, I. Höllinger, N. Klinger, A. Geissler, M.C.Wurniga, E.Matt, J. Rath, S.D. Robinson, S. Trattnig, R. Beisteiner, “The benefits of skull stripping in the normalization of clinical fMRI data”, NeuroImage: Clinical 3, pp 369–380, 2013.
